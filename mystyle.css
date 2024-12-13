@@ -1,0 +1,284 @@
+.topnav {
+  background-image: linear-gradient(to right, #131f3b, #243b65, #608a99);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #82c5cf;
+  color: #243b65;
+}
+
+.topnav a.active {
+  background-color: #82c5cf;
+  color: white;
+}
+
+.topnav-text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  text-align: left;
+  padding-left: 60px;
+}
+
+body {
+  background-color: #131f3b;
+}
+
+.preview {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #c8d1dc;
+  font-size: 40px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #243b65;
+}
+
+.flex-item {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item a img {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card {
+  width: 325px;
+  background-color: #243b65;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 25px;
+  margin-bottom: 8px;
+  font-family: Roboto;
+  color: #e7ecf1;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-family: Roboto;
+  color: #e7ecf1;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #131f3b;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.card-content .btn:hover {
+  background-color: #82c5cf;
+  color: #243b65;
+}
+
+.references {
+  color: #c8d1dc;
+  font-family: Roboto;
+  text-align: center;
+}
+
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #e7ecf1;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("Wanderer_namecard.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonial {
+  padding: 30px 100px;
+  font-family: Roboto;
+}
+
+article h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+article h1:after {
+  content: "";
+  height: 5px;
+  width: 225px;
+  background-color: #e7ecf1;
+  display: block;
+  margin: auto;
+  font-family: Roboto;
+}
+
+article img {
+  border: 2px solid #82c5cf;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+blockquote {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: Roboto;
+}
+
+article h5 {
+  font-size: 28px;
+  margin-top: 30px;
+  font-family: Roboto;
+  letter-spacing: 1.5px;
+}
+
+article p {
+  font-size: 17px;
+  font-family: Roboto;
+}
+
+.purpose h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #82c5cf;
+}
+
+.purpose p {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.slides-1 {
+  min-height: 100vh;
+  width: 100%;
+}
+.slides-1 img {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-2 {
+  min-height: 100vh;
+  width: 100%;
+}
+.slides-2 img {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-3 {
+  min-height: 100vh;
+  width: 100%;
+}
+.slides-3 img {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-4 {
+  min-height: 100vh;
+  width: 100%;
+}
+.slides-4 img {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.p5_info h1 {
+  font-family: Roboto;
+  color: #82c5cf;
+}
+
+.p5_info p {
+  font-family: Roboto;
+}
+
+.slides-5 {
+  min-height: 100vh;
+  width: 100%;
+}
+.slides-5 img {
+  margin-top: 0px;
+  width: 80%;
+  height: 80%;
+}
+
+.p6_info h1 {
+  font-family: Roboto;
+  color: #82c5cf;
+}
+
+.p6_info p {
+  font-family: Roboto;
+}
+
+.p6_info h3 {
+  font-family: Roboto;
+  color: #82c5cf;
+}
+
+.slides-6 {
+  min-height: 100vh;
+  width: 100%;
+}
+.slides-6 img {
+  margin-top: 0px;
+  width: 80%;
+  height: 80%;
+}
